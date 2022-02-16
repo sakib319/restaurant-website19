@@ -1,0 +1,81 @@
+@media(max-width:1024px){
+
+nav{
+ 
+}
+
+  
+  
+}
+
+@media(max-width:991px){
+  
+ 
+  
+  
+}
+
+
+@media(max-width:767px){
+  
+  
+  .navbar-brand img{
+    width:60px;
+    height:50px;
+    
+    
+  }
+  
+  
+.ooter-icon a{
+  
+  color: white;
+  font-size: 1rem;
+  margin: 10px;
+}
+  
+}
+
+
+@media(max-width:330px){
+  
+  
+}
+
+@media(min-width:776px){
+  
+  
+  .nav-link{
+    font-size: 1.2rem;
+  }
+  .navigation-wrap .main-btn{
+    font-size: 1rem;
+    padding: .5rem;
+  }
+  #testimonial{
+    
+    padding:50px;
+  }
+  .carousel-btn{
+  
+    
+    
+    
+  }
+  
+  .ooter-link{
+    
+    flex-direction: row;
+    
+   justify-content: center;
+   
+  }
+  
+ .ooter-link a{
+   
+   font-size: 1.7rem; 
+   margin: 1rem;
+   
+ }
+}
+

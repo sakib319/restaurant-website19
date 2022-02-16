@@ -1,0 +1,439 @@
+*,
+*::after,
+*::before{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+:active,
+:hover,
+:focus{
+  outline: 0 !important;
+  outline-offset: 0;
+  
+}
+
+a{
+  
+  text-decoration: none;
+  
+}
+
+
+ul,ol{
+  
+  margin: 0;
+  padding: 0;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+
+
+body {
+    font-size:100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/*
+=======================
+   custom scrollbar
+=======================
+
+*/
+::-webkit-scrollbar{
+  
+  width:0.625rem;
+}
+
+::-webkit-scrollbar-track{
+  background:darkred;
+  
+  
+}
+
+::-webkit-scrollbar-thumb{
+  
+  background: #43121d;
+}
+
+
+.navbar-brand img{
+  
+  
+  width: 120px;
+}
+
+
+/*
+==========================
+      Custom design
+===========================
+*/
+h1{
+  
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  color:#43121d;
+  
+}
+
+h2{
+  
+  font-weight: 700;
+  font-size: 2.25rem;
+  font-family:'Quicksand',sans-serif;
+  
+  
+ 
+text-transform: capitalize;
+  line-height:3rem;
+color: #43121d;
+
+}
+
+h4{
+  
+  color: #43121d;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform:capitalize;
+  margin-bottom: 0.5rem;
+  font-family:'Quicksand',sans-serif;
+  
+  
+  
+}
+
+h5{
+  color: darkred;
+  text-transform: capitalize;
+  font-family:'Quicksand',sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  
+  
+  font-weight: 700;
+ 
+}
+
+p{
+  
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
+  
+}
+
+.main-btn{
+  
+  
+  
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  line-height: 1.5625rem;
+  background-color:red;
+  border:0.1875rem solid black;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-transform: capitalize;
+  box-shadow:0px 2px 10px -1px white;
+  transition: all 0.4s ease-out 0s;
+  
+}
+
+.white-btn{
+ 
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  line-height: 1.5625rem;
+  background-color:white;
+  border:0.1875rem solid black;
+  color: black;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-transform: capitalize;
+  box-shadow:0px 2px 10px -1px skyblue;
+  transition: all 0.4s ease-out 0s;
+  
+  
+  
+  
+}
+.main-btn:hover{
+  
+  background-color: transparent;
+  color:darkred;
+}
+
+
+.white-btn:hover{
+  background-color: transparent;
+  color:red;
+  border-color:red;
+  
+  
+  
+}
+
+
+.wrapper{
+  padding-top: 8.25rem;
+  padding-bottom: 8.25rem;
+  
+}
+
+.text-content{
+  width:70%;
+  margin: auto;
+  
+}
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2{
+  color: white;
+  
+  
+}
+
+
+/*
+==================================
+.          header design
+===================================
+*/
+.navigation-wrap{
+ 
+  width: 100%;
+  left:0;
+  z-index: 1000;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s  ease-out;}
+  
+.navbar-collapse{
+  padding: 0px;
+  margin-top: -50px;
+}
+ 
+ 
+
+.navigation-wrap .nav-item{
+  padding: 0 0.125rem;
+  transition: all 200ms linear;
+  
+  
+}
+
+
+.navbar-toggler:focus{
+  border:none;
+  outline:none;
+  box-shadow: none;
+
+}
+.nav-link{
+  font-weight: 800;
+  font-size:0.1px;
+  text-transform: capitalize;
+  color:darkred;
+ 
+  
+}
+
+
+.navigation-wrap .main-btn{
+  
+  padding: 0px 5px;
+  margin-bottom: 0px;
+  font-size: 0.2rem;
+}
+.navbar{
+  padding: 0px;
+}
+
+/* Change navbra style on scrool*/
+
+
+
+
+.top-banner{
+  
+  width:100%;
+  padding:16.875rem 0 3.375rem;}
+  
+  
+  .counter-section {
+    
+    background:red;
+    padding:2.5rem 0;
+    
+  }
+  #about{
+    padding-top: 10rem;
+  }
+  .counter-section p{
+    
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  
+.djm {
+  
+  background: url(/images/healthy-eating-ingredients-732x549-thumbnail.jpg) no-repeat right;
+
+margin-bottom: 50px;
+}
+
+.djm h2{
+  color:red!important;
+}
+
+.card-img-top{
+  height:300px;
+  
+}
+.card{
+  
+  height:500px;
+  border: 2px solid black;
+  transition: 0.3s ease-in-out;
+}
+.card:hover{
+  box-shadow: 10px 3px 5px darkred;
+  transform: scale(1.08);
+}
+
+.carousel-item img{
+  
+  height:50px;
+  width: 50px;
+  
+  display: block;
+  margin: 0 auto;
+  margin-top:5px;
+ 
+ 
+  
+  
+  
+}
+
+#explore-food{
+  padding-top: 16rem;
+  
+}
+#testimonial {
+  padding-top:16rem;
+
+  
+  background: darkred;
+  
+}
+
+.carousel-btn button{
+  width: 10px;
+  background: white;
+  height:10px;
+  border-radius: 50%;
+ 
+  
+  
+}
+
+.carousel-item{
+  background: white;
+}
+
+.omg{
+  
+  background: url(/images/healthy-eating-ingredients-732x549-thumbnail.jpg) center no-repeat;
+  
+  background-size:cover;
+  text-align: center;
+  
+  padding:2rem;
+  margin-bottom:3rem;
+
+ 
+  
+}
+#faq{
+  padding-top: 16rem;
+}
+.omg .row{
+  background: black;
+  opacity: 0.8;
+  padding: 20px;
+  
+}
+
+.omg h3{
+  font-size: 1rem;
+  
+  
+}
+
+
+.ooter{
+ 
+  background: black;
+ 
+  
+  
+}
+
+.ooter-link a{
+  
+  
+ display: block;
+ 
+ margin-top: 1.8rem;
+ color: white;
+ 
+  
+}
+
+.ooter-link{
+  
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+.ooter-link a{
+  padding: 4px;
+  
+}
+.ooter-link a:hover{
+  border-radius: 10px;
+  background: darkcyan;
+}
+
+
+
+.ooter-icon a{
+  
+  color: white;
+  margin: 2rem;
+  font-size: 3rem;
+}
+
+
+
+
+.ooter-icon{
+  text-align: center;
+  
+ 
+  
+}
